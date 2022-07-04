@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="assets/css/normalize.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<title>Alter, онлайн-конвертер</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__content">
+				<div class="header__links">
+					<a href="https://www.behance.net/4734412e" target="_blank"
+						class="header__link basic__btn basic__shadow">Behance</a>
+					<a href="https://github.com/Reflections8" target="_blank"
+						class="header__link basic__btn basic__shadow">Github</a>
+				</div>
+				<img src="assets/img/logo.svg" alt="logo" class="svg-icon logo header__logo basic__shadow">
+				<div class="header__quote">“Что разум человека может постигнуть и во что он может поверить, того он способен
+					достичь”</div>
+			</div>
+	</header>
+	<div class="section">
+		<div class="container">
+			<div class="section__header section__header--first">
+				<h1 class="section__title section__title--first  h1">Может что сконвертируем?</h1>
+				<div class="section_desc">Большой и стильный конвертер, в котором собрано большое и стильное количество
+					данных, как статичных так и динамичных.</div>
+			</div>
+		</div>
+	</div>
+	<div class="section section--values">
+		<div class="container">
+			<div class="section__header">
+				<h2 class="section__title h2">Выберите тип конвертации</h2>
+			</div>
+			<div class="values">
+				<div class="value-item basic__btn value-active basic__shadow">
+					<div class="value-item__title mass">Масса</div>
+					<img src="assets/img/values/mass.svg" alt="" class="svg-icon value-item__img">
+				</div>
+				<div class="value-item basic__btn distance">
+					<div class="value-item__title">Расстояние</div>
+					<img src="assets/img/values/distance.svg" alt="" class="svg-icon value-item__img">
+				</div>
+				<div class="value-item basic__btn temperature">
+					<div class="value-item__title">Температура</div>
+					<img src="assets/img/values/temperature.svg" alt="" class="svg-icon value-item__img">
+				</div>
+				<div class="value-item basic__btn time">
+					<div class="value-item__title">Время</div>
+					<img src="assets/img/values/time.svg" alt="" class="svg-icon value-item__img">
+				</div>
+				<div class="value-item basic__btn speed">
+					<div class="value-item__title">Скорость</div>
+					<img src="assets/img/values/speed.svg" alt="" class="svg-icon value-item__img">
+				</div>
+				<div class="value-item basic__btn currency">
+					<div class="value-item__title">Валюта</div>
+					<img src="assets/img/values/currency.svg" alt="" class="svg-icon value-item__img">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section section--converter">
+		<div class="container">
+			<div class="converter">
+				<div class="converter__block converter__initial">
+					<h3 class="h3">Исходная величина</h3>
+					<div class="converter-box">
+						<ul class="converter-box__list">
+							<li class="converter-box__list-item current-value">Килограмм</li>
+							<ul class="dropdown-list hidden">
+								<!--Список подгружается из объекта values.js-->
+							</ul>
+						</ul>
+						<div class="converter-box__input-block">
+							<input type="tel" value="1" class="converter-box__input">
+						</div>
+					</div>
+				</div>
+				<div class="converter__arrow">
+					<img src="assets/img/arrow.svg" alt="" class="svg-icon arrow-img">
+				</div>
+				<div class="converter__block converter__final">
+					<h3 class="h3">Во что преобразуем?</h3>
+					<div class="converter-box">
+						<ul class="converter-box__list">
+							<li class="converter-box__list-item current-value">Грамм</li>
+							<ul class="dropdown-list hidden">
+								<!--Список подгружается из объекта values.js-->
+							</ul>
+						</ul>
+						<div class="converter-box__input-block">
+							<input type="tel" value="1000" class="converter-box__input">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section section--styles">
+		<div class="container">
+			<div class="section__header">
+				<h2 class="section__title h2">Выберите стиль конвертера</h2>
+			</div>
+			<div class="styles">
+				<div class="style-item style-item--original basic__shadow">
+					<div class="style-item__name">Original</div>
+					<img src="assets/img/checkmark.svg" alt="" class="svg-icon style-item__checkmark">
+				</div>
+				<div class="style-item style-item--glass">
+					<div class="style-item__name">Glass</div>
+				</div>
+				<div class="style-item style-item--neomorphism">
+					<div class="style-item__name">Neomorphism</div>
+				</div>
+				<div class="style-item style-item--material">
+					<div class="style-item__name">Material</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="assets/js/valuesVar2.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+
+</html>
