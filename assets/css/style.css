@@ -704,7 +704,7 @@ body {
 }
 
 .style-item--glass {
-  background-image: url("/assets/img/styles/glass.png");
+  background-image: url("../img/styles/glass.png");
 }
 
 .style-item--neomorphism {
