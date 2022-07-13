@@ -999,6 +999,10 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+  /*SECTIONS*/
+  .section {
+    margin-top: 20px;
+  }
   /*FIRST SECTION*/
   .h1 {
     font-size: 34px;
