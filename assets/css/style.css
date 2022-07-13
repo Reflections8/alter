@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*GLOBAL*/
 @font-face {
+<<<<<<< HEAD
   font-family: 'Century Gothic';
   src: url(/assets/fonts/centurygothic.ttf) format("ttf");
   font-weight: 400;
@@ -10,6 +11,17 @@
   font-family: 'Century Gothic';
   src: url(/assets/fonts/centurygothic_bold.ttf) format("ttf");
   font-weight: 700;
+=======
+	font-family: 'Century Gothic';
+	src: url(../fonts/centurygothic.ttf) format('ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url(../fonts/centurygothic_bold.ttf) format('ttf');
+	font-weight: 700;
+>>>>>>> a81c254302c0f5bb53e3adc2328ff6f2a3d1f7a0
 }
 
 body {
@@ -619,7 +631,7 @@ body {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
   right: 20px;
-  background: url("/assets/img/arrow-small.svg");
+  background: url("../img/arrow-small.svg");
   width: 40px;
   height: 19px;
   -webkit-transition: all .2s ease-in-out;
@@ -716,15 +728,15 @@ body {
 }
 
 .style-item--glass {
-  background-image: url("/assets/img/styles/glass.png");
+  background-image: url("../img/styles/glass.png");
 }
 
 .style-item--neomorphism {
-  background-image: url("/assets/img/styles/neomorphism.png");
+  background-image: url("../img/styles/neomorphism.png");
 }
 
 .style-item--material {
-  background-image: url("/assets/img/styles/material.png");
+  background-image: url("../img/styles/material.png");
 }
 
 .style-item__name {
