@@ -607,7 +607,7 @@ body {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
   right: 20px;
-  background: url("/assets/img/arrow-small.svg");
+  background: url("../assets/img/arrow-small.svg");
   width: 40px;
   height: 19px;
   -webkit-transition: all .2s ease-in-out;
@@ -708,11 +708,11 @@ body {
 }
 
 .style-item--neomorphism {
-  background-image: url("/assets/img/styles/neomorphism.png");
+  background-image: url("../img/styles/neomorphism.png");
 }
 
 .style-item--material {
-  background-image: url("/assets/img/styles/material.png");
+  background-image: url("../img/styles/material.png");
 }
 
 .style-item__name {
