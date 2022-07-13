@@ -1013,8 +1013,11 @@ body {
   .h3 {
     font-size: 26px;
   }
+  .values {
+    row-gap: 15px;
+  }
   .value-item__title {
-    font-size: 15px;
+    font-size: 13px;
   }
   .value-item__img {
     width: 47%;
@@ -1040,5 +1043,23 @@ body {
   .style-item {
     width: 90%;
     background-position-y: -20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /*VALUES*/
+  .h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  /*CONVERTER*/
+  .h3 {
+    font-size: 22px;
+  }
+  .values {
+    row-gap: 10px;
+  }
+  .converter-box__list-item {
+    font-size: 12px;
   }
 }
