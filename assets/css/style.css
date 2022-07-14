@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /*GLOBAL*/
 @font-face {
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic', sans-serif;
   src: url(../fonts/centurygothic.ttf) format("ttf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic', sans-serif;
   src: url(../fonts/centurygothic_bold.ttf) format("ttf");
   font-weight: 700;
 }
